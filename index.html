@@ -38,78 +38,36 @@
 </head>
 
 <body>
-        <h1>Header 1</h1>
-        <!--Its the header size for the page H1-H6-->
-        <p>The old jolly roger</p>
-        <!--Paragraph text-->
-        <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-        </ul>
-        <ul type="square">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-        </ul>
-        <ul type="circle">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
-        </ul>
-        <!--UL: Unordered list. gives dots on list and not numbers-->
-        <ol>
-                <li>Banana</li>
-                <li>Tomato</li>
-                <li>Apple</li>
-                <li>Kiwi</li>
-        </ol>
-        <ol type="a">
-                <li>Banana</li>
-                <li>Tomato</li>
-                <li>Apple</li>
-                <li>Kiwi</li>
-        </ol>
-        <ol type="A">
-                <li>Banana</li>
-                <li>Tomato</li>
-                <li>Apple</li>
-                <li>Kiwi</li>
-        </ol>
-        <ol type="I">
-                <li>Banana</li>
-                <li>Tomato</li>
-                <li>Apple</li>
-                <li>Kiwi</li>
-        </ol>
-        <!-- 
-                OR: Ordered list, gives numbered list 
-                a: gives abc in small
-                A: gives abc in big
-                I: gives roamn numerals
-            -->
-        <pre>
-        This is 
-                some 
-            wierd
-                        writing
-    </pre>
-        <!-- <pre> tag keeps the spacing that is written in the editor -->
-        <img 
-                loading="lazy" 
-                src="imgs/Goshawk_Hønsehauk_1971.jpg" 
-                alt="This is my favourit bird" title="Sparrow Hawk" 
-        />
-        <!-- 
-                    How to link an image
-                    loading="lazy" makes it not focus on images so it loades later. For slow connections.
-                    alt is for broken image or accessibility
-                    title is the text that will show when hovering image
-                 -->
-        <h2>Hello iam here from day 4 html branch duuuuuude!</h2>
+        
+        <header><!--Header contains logo, navigation links-->
+                <nav><!--Navigation links, logo search-->
+                        This is my navbar
+                </nav>
+        </header>
+
+        <main>
+                <!-- articles, images, paragraph and heading for article -->
+                <article> 
+                        <h1>title of the article</h1>
+                        <p>content of article</p>
+                </article>
+
+                <!-- Section, contains content blocks or ads or some content -->
+                <section>
+                    <h2>subheading or section title</h2>
+                    <p>some content</p>    
+                </section>
+        </main>
+
+        <aside>
+                <!-- sidebar content, before main for left side after for right side -->
+                This is my aside
+        </aside>
+
+        <footer>
+                <!-- Footer contains copyright informations, secondary links and site maps -->
+                This is my footer
+        </footer>
 </body>
 
 </html>
